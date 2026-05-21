@@ -1,0 +1,998 @@
+/* ============================================================================
+   YASB Styles — Fluent Onyx  |  Clear zone separation  |  Stacked traffic
+   Place at: C:\Users\<YOU>\.config\yasb\styles.css
+   Requires: JetBrainsMono Nerd Font  +  Segoe UI Variable
+   ============================================================================ */
+
+/* ----------------------------------------------------------------------------
+   Tokens
+   ---------------------------------------------------------------------------- */
+:root {
+  --font-ui:    "Segoe UI Variable Display", "Segoe UI", system-ui;
+  --font-text:  "Segoe UI Variable Text",    "Segoe UI", system-ui;
+  --font-mono:  "JetBrainsMono Nerd Font",   "Consolas", monospace;
+  --font-icon:  "Segoe Fluent Icons",        "JetBrainsMono NFP";
+  --font-icon2: "JetBrainsMono NFP";
+
+  --sz-xs:   12px;
+  --sz-sm:   13px;
+  --sz-body: 14px;
+  --sz-md:   15px;
+  --sz-lg:   16px;
+
+  --fw-reg:  400;
+  --fw-semi: 500;
+  --fw-bold: 700;
+
+  /* ── Tokyo Night palette ── */
+  --tn-bg:        #1a1b26;   /* main bg */
+  --tn-bg1:       #16161e;   /* darker bg */
+  --tn-bg2:       #1f2335;   /* surface */
+  --tn-bg3:       #24283b;   /* elevated surface */
+  --tn-popup:     #1e2030;   /* popups / menus */
+
+  --tn-blue:      #7aa2f7;   /* primary accent */
+  --tn-cyan:      #7dcfff;   /* secondary accent */
+  --tn-purple:    #bb9af7;   /* mauve / workspaces active */
+  --tn-magenta:   #ff007c;   /* hot pink */
+  --tn-green:     #9ece6a;   /* success / download */
+  --tn-teal:      #1abc9c;   /* teal */
+  --tn-orange:    #ff9e64;   /* warnings / GPU */
+  --tn-red:       #f7768e;   /* errors / upload / power */
+  --tn-yellow:    #e0af68;   /* clock / media */
+
+  --tn-fg:        #c0caf5;   /* primary text */
+  --tn-fg2:       #a9b1d6;   /* secondary text */
+  --tn-fg3:       #565f89;   /* muted text */
+  --tn-fg4:       #3b4261;   /* very muted */
+
+  --tn-border:    #292e42;   /* subtle border */
+  --tn-zone-sep:  #3d59a1;   /* zone divider — blue tinted */
+
+  /* Map to generic vars used throughout */
+  --bar-bg:      rgba(26, 27, 38, 0.96);
+  --popup-bg:    rgba(30, 32, 48, 0.98);
+  --layer-bg:    rgba(31, 35, 53, 0.92);
+  --layer-bg-x:  rgba(31, 35, 53, 0.98);
+
+  --surf:        rgba(122, 162, 247, 0.07);
+  --surf-hover:  rgba(122, 162, 247, 0.13);
+  --surf-press:  rgba(122, 162, 247, 0.05);
+
+  --t1: #c0caf5;
+  --t2: #a9b1d6;
+  --t3: #565f89;
+  --t4: #3b4261;
+
+  --accent:     #7aa2f7;
+  --accent-dk:  #3d59a1;
+  --accent-dim: rgba(122,162,247, 0.18);
+
+  --green: #9ece6a;
+  --warn:  #e0af68;
+  --red:   #f7768e;
+
+  --stroke:       #292e42;
+  --stroke-hover: #3d59a1;
+  --zone-sep:     #3d59a1;
+
+  /* Radii */
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 12px;
+}
+
+/* ----------------------------------------------------------------------------
+   Reset
+   ---------------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-ui);
+  font-size: var(--sz-body);
+  font-weight: var(--fw-reg);
+  color: var(--t1);
+}
+
+/* ----------------------------------------------------------------------------
+   Bar base
+   ---------------------------------------------------------------------------- */
+.yasb-bar {
+  background-color: var(--bar-bg);
+  border-bottom: 1px solid var(--tn-border);
+  padding: 0 4px;
+}
+
+/* ----------------------------------------------------------------------------
+   ZONE SEPARATORS  ← the main visual split between L | C | R
+   ---------------------------------------------------------------------------- */
+.bar-left {
+  border-right: 1px solid var(--tn-zone-sep);
+  padding-right: 10px;
+  margin-right: 6px;
+}
+
+.bar-right {
+  border-left: 1px solid var(--tn-zone-sep);
+  padding-left: 10px;
+  margin-left: 6px;
+}
+
+/* ----------------------------------------------------------------------------
+   Widget base
+   ---------------------------------------------------------------------------- */
+.widget {
+  padding: 0 5px;
+  margin: 0 2px;
+}
+
+.widget .label {
+  padding: 0 4px;
+  font-size: var(--sz-sm);
+  color: var(--tn-fg2);
+  font-family: var(--font-mono);
+}
+
+.widget .label:hover { color: var(--t1); }
+
+.widget .icon {
+  font-family: var(--font-icon2);
+  color: var(--t3);
+  font-size: 14px;
+}
+
+/* ----------------------------------------------------------------------------
+   Tooltip
+   ---------------------------------------------------------------------------- */
+.tooltip {
+  background-color: var(--layer-bg-x);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  padding: 6px 12px;
+  margin-top: 8px;
+  font-size: var(--sz-body);
+  color: var(--t1);
+}
+
+/* ----------------------------------------------------------------------------
+   Context menu
+   ---------------------------------------------------------------------------- */
+.context-menu,
+.context-menu .menu-checkbox {
+  background-color: var(--layer-bg);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  padding: 6px 0;
+  font-size: var(--sz-body);
+}
+
+.context-menu::item,
+.context-menu .menu-checkbox {
+  background-color: transparent;
+  padding: 5px 12px;
+  margin: 2px 6px;
+  border-radius: var(--r-sm);
+  border: 0;
+  min-width: 140px;
+}
+
+.context-menu::item:selected,
+.context-menu .menu-checkbox:hover {
+  background-color: var(--surf-hover);
+  color: var(--t1);
+}
+
+.context-menu::separator {
+  height: 1px;
+  background-color: var(--stroke);
+  margin: 3px 6px;
+}
+
+/* ----------------------------------------------------------------------------
+   Home widget
+   ---------------------------------------------------------------------------- */
+.home-widget .widget-container {
+  background-color: transparent;
+  border: 0;
+  padding: 0 4px;
+}
+
+.home-widget .icon {
+  font-family: var(--font-icon2);
+  font-size: 18px;
+  color: var(--t3);
+}
+
+.home-widget .icon:hover { color: var(--tn-cyan); }
+
+.home-menu {
+  background-color: var(--layer-bg);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  padding: 6px 0;
+}
+
+.home-menu .menu-item {
+  background-color: transparent;
+  padding: 6px 12px;
+  margin: 2px 6px;
+  border-radius: var(--r-sm);
+  font-family: var(--font-icon2);
+  font-size: var(--sz-body);
+  color: var(--t2);
+  border: 0;
+  min-width: 150px;
+}
+
+.home-menu .menu-item:hover {
+  background-color: var(--surf-hover);
+  color: var(--t1);
+}
+
+.home-menu .separator {
+  height: 1px;
+  background-color: var(--stroke);
+  margin: 3px 6px;
+}
+
+/* ----------------------------------------------------------------------------
+   Windows workspaces
+   ---------------------------------------------------------------------------- */
+.windows-desktops .ws-btn {
+  color: var(--t3);
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  padding: 2px 5px;
+  border-radius: var(--r-sm);
+  min-width: 22px;
+}
+
+.windows-desktops .ws-btn:hover {
+  color: var(--t2);
+  background-color: var(--surf-hover);
+}
+
+.windows-desktops .ws-btn.active {
+  color: var(--tn-purple);
+  font-weight: var(--fw-semi);
+}
+
+/* ----------------------------------------------------------------------------
+   Taskbar
+   ---------------------------------------------------------------------------- */
+.taskbar-widget .app-container {
+  padding: 0 5px;
+  margin: 0 2px;
+  border-radius: var(--r-sm);
+}
+
+.taskbar-widget .app-container:hover {
+  background-color: var(--surf-hover);
+}
+
+.taskbar-widget .app-container.foreground {
+  background-color: var(--surf);
+  border-left: 2px solid var(--tn-blue);
+  border-radius: 0 var(--r-sm) var(--r-sm) 0;
+}
+
+.taskbar-widget .app-container .app-title {
+  padding-left: 4px;
+  color: var(--t2);
+  font-size: var(--sz-sm);
+  font-family: var(--font-text);
+}
+
+.taskbar-widget .app-container.foreground .app-title {
+  color: var(--t1);
+  font-weight: var(--fw-semi);
+}
+
+.taskbar-preview {
+  background-color: rgba(43,44,45,0.88);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  padding: 8px;
+}
+
+.taskbar-preview .header .title {
+  color: var(--t1);
+  font-weight: var(--fw-semi);
+  font-size: var(--sz-body);
+}
+
+/* ----------------------------------------------------------------------------
+   Media widget
+   ---------------------------------------------------------------------------- */
+.media-widget .label {
+  font-size: var(--sz-xs);
+  color: var(--tn-fg3);
+  font-family: var(--font-text);
+}
+
+.media-widget .label:hover { color: var(--tn-fg2); }
+
+.media-widget .btn {
+  font-size: 15px;
+  color: var(--t2);
+  padding: 2px 5px;
+  background-color: transparent;
+  border: none;
+  border-radius: var(--r-sm);
+}
+
+.media-widget .btn:hover {
+  color: var(--t1);
+  background-color: var(--surf-hover);
+}
+
+.media-menu {
+  min-width: 340px;
+  max-width: 340px;
+  border-radius: var(--r-md);
+  padding: 16px;
+  background-color: var(--layer-bg);
+  border: 1px solid var(--stroke);
+}
+
+.media-menu .title {
+  font-size: var(--sz-lg);
+  font-weight: var(--fw-semi);
+  color: var(--t1);
+}
+
+.media-menu .artist {
+  font-size: var(--sz-xs);
+  color: var(--t2);
+  margin-top: 2px;
+}
+
+.media-menu .source {
+  font-size: var(--sz-xs);
+  color: var(--t3);
+}
+
+.media-menu .btn {
+  font-family: var(--font-icon);
+  font-size: 16px;
+  margin: 8px 4px 0;
+  min-width: 30px; max-width: 30px;
+  min-height: 30px; max-height: 30px;
+  border-radius: 50%;
+  color: var(--t2);
+  background-color: var(--surf);
+  border: 1px solid var(--stroke);
+}
+
+.media-menu .btn:hover {
+  background-color: var(--surf-hover);
+  color: var(--t1);
+}
+
+.media-menu .btn.play {
+  background-color: var(--tn-blue);
+  color: rgba(0,0,0,0.85);
+  border-color: transparent;
+}
+
+.media-menu .btn.play:hover { background-color: var(--tn-zone-sep); }
+
+/* ----------------------------------------------------------------------------
+   Clock — center, larger than right-zone stats
+   ---------------------------------------------------------------------------- */
+.clock-widget .widget-container {
+  background-color: transparent;
+  border: transparent;
+  padding: 0 12px;
+}
+
+.clock-widget .label {
+  font-family: var(--font-ui);
+  font-size: 16px;
+  font-weight: var(--fw-semi);
+  color: var(--tn-yellow);
+  letter-spacing: 0.01em;
+}
+
+.clock-widget .label:hover { color: var(--tn-cyan); }
+
+.calendar {
+  padding: 16px;
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  background-color: var(--layer-bg);
+}
+
+.calendar .calendar-table::item:selected {
+  background-color: var(--tn-blue);
+  color: rgba(0,0,0,0.85);
+  border-radius: var(--r-sm);
+}
+
+.calendar .month-label { font-size: 18px; font-weight: var(--fw-semi); }
+.calendar .day-label   { font-size: 20px; font-weight: var(--fw-semi); }
+.calendar .date-label  { font-size: 52px; font-weight: var(--fw-bold); }
+
+/* ----------------------------------------------------------------------------
+   CPU / GPU / Memory  (right zone — compact mono)
+   ---------------------------------------------------------------------------- */
+.cpu-widget .widget-container .label,
+.gpu-widget .widget-container .label,
+.memory-widget .widget-container .label {
+  color: var(--tn-fg2);
+  font-family: var(--font-mono);
+  font-size: var(--sz-sm);
+  font-weight: var(--fw-semi);
+}
+
+.memory-widget .widget-container .label.status-low      { color: var(--tn-green);  }
+.memory-widget .widget-container .label.status-medium   { color: var(--tn-yellow); }
+.memory-widget .widget-container .label.status-high     { color: var(--tn-orange); }
+.memory-widget .widget-container .label.status-critical { color: var(--tn-red);    }
+
+/* ----------------------------------------------------------------------------
+   Traffic widget — stacked download / upload
+   .download and .upload are Qt-rendered <span> elements inside the label.
+   Setting display:block on each stacks them vertically.
+   ---------------------------------------------------------------------------- */
+.traffic-widget {
+  min-width: 72px;
+  max-width: 90px;
+}
+
+/* Each span gets its own line */
+.traffic-widget .download, .traffic-widget div.download {
+  color: var(--tn-green);
+  font-family: "JetBrainsMono Nerd Font", "Consolas", monospace;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.traffic-widget .upload, .traffic-widget div.upload {
+  color: var(--tn-red);
+  font-family: "JetBrainsMono Nerd Font", "Consolas", monospace;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* The label container itself needs to stack its children */
+.traffic-widget .label {
+  padding: 0 5px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.traffic-menu {
+  background-color: rgba(28, 28, 28, 0.96);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  min-width: 280px;
+  padding: 12px;
+}
+
+.traffic-menu .header .title {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+}
+
+.traffic-menu .header .reset-button {
+  font-size: 11px;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  color: rgba(255,255,255,0.5);
+}
+
+.traffic-menu .reset-button:hover {
+  color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+.traffic-menu .download-speed,
+.traffic-menu .upload-speed {
+  background-color: transparent;
+  padding: 4px 10px;
+  margin: 12px 12px 0;
+}
+
+.traffic-menu .speed-separator {
+  max-width: 1px;
+  background-color: rgba(255,255,255,0.12);
+  margin: 28px 0 12px 0;
+}
+
+.traffic-menu .upload-speed-value,
+.traffic-menu .download-speed-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+}
+
+.traffic-menu .upload-speed-unit,
+.traffic-menu .download-speed-unit {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 4px;
+  color: rgba(255,255,255,0.55);
+}
+
+.traffic-menu .upload-speed-placeholder,
+.traffic-menu .download-speed-placeholder {
+  color: rgba(255,255,255,0.30);
+  font-size: 11px;
+  padding-bottom: 4px;
+}
+
+.traffic-menu .section-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.40);
+  margin-bottom: 4px;
+}
+
+.traffic-menu .session-section,
+.traffic-menu .today-section,
+.traffic-menu .alltime-section {
+  margin: 6px 8px 0 8px;
+  padding: 0 10px 10px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.traffic-menu .data-text {
+  font-size: 12px;
+  color: rgba(255,255,255,0.55);
+  padding: 2px 0;
+}
+
+.traffic-menu .data-value {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 2px 0;
+  color: rgba(255,255,255,0.85);
+}
+
+.traffic-menu .interface-info,
+.traffic-menu .internet-info {
+  font-size: 11px;
+  color: rgba(255,255,255,0.40);
+  padding: 6px 0;
+}
+
+.traffic-menu .internet-info.connected {
+  background-color: rgba(158,206,106,0.12);
+  color: var(--tn-green);
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.traffic-menu .internet-info.disconnected {
+  background-color: rgba(247,118,142,0.12);
+  color: var(--tn-red);
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+/* ----------------------------------------------------------------------------
+   Volume
+   ---------------------------------------------------------------------------- */
+.volume-widget .widget-container .label {
+  color: var(--tn-fg2);
+  font-family: var(--font-mono);
+  font-size: var(--sz-sm);
+  font-weight: var(--fw-semi);
+}
+
+.audio-menu {
+  background-color: var(--layer-bg);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  min-width: 300px;
+  padding: 8px;
+}
+
+.audio-menu .audio-container .device {
+  background-color: transparent;
+  border: none;
+  padding: 6px 12px;
+  font-size: var(--sz-body);
+  color: var(--t2);
+  border-radius: var(--r-sm);
+}
+
+.audio-menu .audio-container .device:hover {
+  background-color: var(--surf-hover);
+  color: var(--t1);
+}
+
+.audio-menu .audio-container .device.selected {
+  background-color: var(--surf);
+  color: var(--t1);
+}
+
+/* ----------------------------------------------------------------------------
+   Microphone
+   ---------------------------------------------------------------------------- */
+.microphone-widget .widget-container .label {
+  color: var(--tn-fg2);
+  font-family: var(--font-mono);
+  font-size: var(--sz-sm);
+  font-weight: var(--fw-semi);
+}
+
+.microphone-menu {
+  background-color: var(--layer-bg);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  min-width: 300px;
+  padding: 8px;
+}
+
+/* ----------------------------------------------------------------------------
+   Disk
+   ---------------------------------------------------------------------------- */
+.disk-widget .widget-container .label {
+  color: var(--tn-fg2);
+  font-family: var(--font-mono);
+  font-size: var(--sz-sm);
+  font-weight: var(--fw-semi);
+}
+
+.disk-group {
+  background-color: var(--layer-bg);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  padding: 8px;
+}
+
+.disk-group-row {
+  min-width: 240px; max-width: 300px;
+  min-height: 34px; max-height: 34px;
+  padding: 10px;
+  border-radius: var(--r-md);
+  border: 1px solid transparent;
+}
+
+.disk-group-row:hover {
+  background-color: var(--surf-hover);
+  border: 1px solid var(--stroke);
+}
+
+.disk-group-label-bar {
+  max-height: 5px;
+  background-color: var(--surf);
+  border-radius: var(--r-sm);
+}
+
+.disk-group-label-bar::chunk {
+  background-color: var(--tn-green);
+  border-radius: var(--r-sm);
+}
+
+/* ----------------------------------------------------------------------------
+   Apps widget — hidden icons chevron
+   ---------------------------------------------------------------------------- */
+.apps-widget .widget-container {
+  background-color: transparent;
+  border: 0;
+  padding: 0 4px;
+}
+
+.apps-widget .label {
+  font-family: var(--font-icon2);
+  font-size: 15px;
+  color: var(--t3);
+}
+
+.apps-widget .label:hover { color: var(--t2); }
+
+/* ----------------------------------------------------------------------------
+   Power menu
+   ---------------------------------------------------------------------------- */
+.power-menu-widget .widget-container {
+  background-color: transparent;
+  border: 0;
+  padding: 0 6px;
+}
+
+.power-menu-widget .label {
+  font-family: var(--font-icon2);
+  font-size: 15px;
+  color: var(--tn-red);
+  font-weight: var(--fw-semi);
+}
+
+.power-menu-widget .label:hover { color: var(--tn-cyan); }
+
+.power-menu-popup {
+  border-radius: var(--r-lg);
+  border: 1px solid var(--stroke);
+  padding: 16px;
+}
+
+.power-menu-popup .button {
+  width: 180px; height: 90px;
+  padding: 12px;
+  margin: 6px;
+  background-color: var(--surf);
+  border: 1px solid var(--stroke);
+  border-radius: var(--r-md);
+  cursor: pointer;
+}
+
+.power-menu-popup .button:hover {
+  background-color: var(--surf-hover);
+  border-color: var(--stroke-hover);
+}
+
+.power-menu-popup .button .label {
+  font-size: var(--sz-lg);
+  font-weight: var(--fw-semi);
+  color: var(--t1);
+  margin-bottom: 6px;
+}
+
+.power-menu-popup .button .icon  { font-size: 38px; color: var(--t3); }
+.power-menu-popup .button.shutdown .icon { font-family: var(--font-icon); color: var(--tn-blue); }
+.power-menu-popup .button.cancel   .icon { color: var(--tn-red); }
+
+.uptime {
+  font-size: 20px;
+  font-weight: var(--fw-semi);
+  color: var(--t1);
+  margin-bottom: 12px;
+}
+
+
+/* ============================================================================
+   Systray widget — appended / replaces previous tray-widget block
+   ============================================================================ */
+
+.systray {
+  background: transparent;
+  border: none;
+  margin: 0 2px;
+}
+
+.systray .pinned-container {
+  background: transparent;
+}
+
+.systray .unpinned-container {
+  background: transparent;
+}
+
+/* Individual tray icon buttons */
+.systray .button {
+  border-radius: 4px;
+  padding: 2px;
+  border: none;
+}
+
+.systray .button:hover {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+.systray .button.drag-over {
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.systray .button.dragging {
+  /* transparency already applied by YASB */
+}
+
+.systray .pinned-container.drop-target {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+}
+
+/* The ▼ / ▶ collapse button */
+.systray .unpinned-visibility-btn {
+  border-radius: 4px;
+  height: 20px;
+  width: 16px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 13px;
+  font-family: "JetBrainsMono NFP";
+  background: transparent;
+}
+
+.systray .unpinned-visibility-btn:hover {
+  background: rgba(122, 162, 247, 0.15);
+  color: var(--tn-cyan);
+}
+
+.systray .unpinned-visibility-btn:checked {
+  background: transparent;
+}
+
+/* Popup window (show_in_popup: true) */
+.systray-popup {
+  background-color: rgba(28, 28, 28, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.systray-popup-container {
+  background: transparent;
+}
+
+.systray-popup .button {
+  padding: 8px;
+  margin: 1px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+}
+
+.systray-popup .button:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.systray-popup .button.drag-over {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+/* ============================================================================
+   Tokyo Night — per-widget colors
+   All colors applied via CSS classes, NO inline styles in config.yaml
+   ============================================================================ */
+
+/* Home */
+.home-widget .icon { color: #7aa2f7; }
+
+/* Komorebi Workspaces */
+.komorebi-workspaces .ws-btn {
+  color: #565f89;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  min-width: 22px;
+}
+.komorebi-workspaces .ws-btn:hover {
+  color: #a9b1d6;
+  background-color: rgba(122,162,247,0.10);
+}
+.komorebi-workspaces .ws-btn.active {
+  color: #bb9af7;
+  font-weight: 600;
+}
+.komorebi-workspaces .ws-btn.populated {
+  color: #7aa2f7;
+}
+.komorebi-workspaces .float-override {
+  color: #e0af68;
+  font-size: 11px;
+  padding: 0 4px;
+}
+
+/* Taskbar active app */
+.taskbar-widget .app-container.foreground {
+  border-left: 2px solid #7aa2f7;
+  background-color: rgba(122,162,247,0.08);
+}
+
+/* Also keep windows-desktops styled in case user switches back */
+.windows-desktops .ws-btn       { color: #565f89; }
+.windows-desktops .ws-btn:hover  { color: #a9b1d6; }
+.windows-desktops .ws-btn.active { color: #bb9af7; font-weight: 600; }
+.taskbar-widget .app-container.foreground .app-title { color: #c0caf5; }
+
+/* Media */
+.media-widget .label     { color: #bb9af7; }
+.media-widget .label:hover { color: #c0caf5; }
+.media-widget .icon      { color: #bb9af7; }
+
+/* Clock */
+.clock-widget .label     { color: #e0af68; }
+.clock-widget .label:hover { color: #7dcfff; }
+.clock-widget .icon      { color: #e0af68; }
+
+/* CPU */
+.cpu-widget .widget-container .label { color: #7dcfff; font-family: var(--font-mono); font-size: var(--sz-sm); font-weight: 600; }
+.cpu-widget .widget-container .icon  { color: #7dcfff; }
+.cpu-widget .widget-container .label.status-low      { color: #9ece6a; }
+.cpu-widget .widget-container .label.status-medium   { color: #e0af68; }
+.cpu-widget .widget-container .label.status-high     { color: #ff9e64; }
+.cpu-widget .widget-container .label.status-critical { color: #f7768e; }
+
+/* GPU */
+.gpu-widget .widget-container .label { color: #ff9e64; font-family: var(--font-mono); font-size: var(--sz-sm); font-weight: 600; }
+.gpu-widget .widget-container .icon  { color: #ff9e64; }
+.gpu-widget .widget-container .label.status-low      { color: #9ece6a; }
+.gpu-widget .widget-container .label.status-medium   { color: #e0af68; }
+.gpu-widget .widget-container .label.status-high     { color: #ff9e64; }
+.gpu-widget .widget-container .label.status-critical { color: #f7768e; }
+
+/* Memory */
+.memory-widget .widget-container .label { color: #bb9af7; font-family: var(--font-mono); font-size: var(--sz-sm); font-weight: 600; }
+.memory-widget .widget-container .icon  { color: #bb9af7; }
+.memory-widget .widget-container .label.status-low      { color: #9ece6a; }
+.memory-widget .widget-container .label.status-medium   { color: #e0af68; }
+.memory-widget .widget-container .label.status-high     { color: #ff9e64; }
+.memory-widget .widget-container .label.status-critical { color: #f7768e; }
+
+/* Traffic */
+.traffic-widget .label   { color: #a9b1d6; font-family: var(--font-mono); font-size: 12px; }
+.traffic-widget .icon    { color: #a9b1d6; }
+.traffic-widget .download,
+.traffic-widget div.download { color: #9ece6a; font-family: var(--font-mono); font-size: 12px; font-weight: 600; line-height: 1.35; }
+.traffic-widget .upload,
+.traffic-widget div.upload   { color: #f7768e; font-family: var(--font-mono); font-size: 12px; font-weight: 600; line-height: 1.35; }
+
+/* Volume */
+.volume-widget .widget-container .label      { color: #7dcfff; font-family: var(--font-mono); font-size: var(--sz-sm); font-weight: 600; }
+.volume-widget .widget-container .icon       { color: #7dcfff; }
+.volume-widget .widget-container .label.muted { color: #565f89; }
+.volume-widget .widget-container .icon.muted  { color: #565f89; }
+
+/* Microphone */
+.microphone-widget .widget-container .label       { color: #1abc9c; font-family: var(--font-mono); font-size: var(--sz-sm); font-weight: 600; }
+.microphone-widget .widget-container .icon        { color: #1abc9c; }
+.microphone-widget .widget-container .label.muted { color: #565f89; }
+.microphone-widget .widget-container .icon.muted  { color: #565f89; }
+
+/* Disk */
+.disk-widget .widget-container .label { color: #7aa2f7; font-family: var(--font-mono); font-size: var(--sz-sm); font-weight: 600; }
+.disk-widget .widget-container .icon  { color: #7aa2f7; }
+
+/* Systray chevron */
+.systray .unpinned-visibility-btn       { color: #565f89; }
+.systray .unpinned-visibility-btn:hover { color: #7dcfff; background: rgba(122,162,247,0.12); }
+
+/* Power */
+.power-menu-widget .label       { color: #f7768e; font-size: 15px; font-weight: 600; }
+.power-menu-widget .label:hover { color: #7dcfff; }
+
+/* ── Bluetooth widget ── */
+.bluetooth-widget .widget-container .label {
+  font-family: var(--font-mono);
+  font-size: var(--sz-sm);
+  font-weight: 600;
+}
+
+/* Icon colors per state */
+.bluetooth-widget .icon {
+  font-family: var(--font-icon2);
+  font-size: 14px;
+}
+
+/* BT off — muted grey */
+.bluetooth-widget .label.bt-off,
+.bluetooth-widget .icon.bt-off {
+  color: #565f89;
+}
+
+/* BT on, no devices — cyan */
+.bluetooth-widget .label.bt-on,
+.bluetooth-widget .icon.bt-on {
+  color: #7dcfff;
+}
+
+/* BT connected — bright blue with subtle glow */
+.bluetooth-widget .label.bt-connected,
+.bluetooth-widget .icon.bt-connected {
+  color: #7aa2f7;
+}
+
+/* Fallback — anything not matched */
+.bluetooth-widget .label { color: #7aa2f7; }
+.bluetooth-widget .icon  { color: #7aa2f7; }
+
+/* Hover — lighten */
+.bluetooth-widget .widget-container:hover .label { color: #c0caf5; }
+.bluetooth-widget .widget-container:hover .icon  { color: #c0caf5; }

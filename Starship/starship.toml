@@ -1,0 +1,68 @@
+format = """
+[╭─](fg:#a78bfa)$os[](bg:#60a5fa fg:#a78bfa)$directory[](bg:#34d399 fg:#60a5fa)$python$nodejs[](bg:#f472b6 fg:#34d399)$git_branch$git_status[](bg:#fbbf24 fg:#f472b6)$time[](fg:#fbbf24)$line_break[╰─❯](bold #a78bfa)⠀
+"""
+
+# OS
+[os]
+disabled = false
+style = "bg:#a78bfa fg:#1e1e2e"
+format = "[ $symbol ]($style)"
+
+[os.symbols]
+Windows = "󰍲"
+Kali = ""
+Ubuntu = ""
+Arch = ""
+
+# Directory
+[directory]
+style = "bg:#60a5fa fg:#1e1e2e"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncate_to_repo = true
+
+# Python
+[python]
+symbol = ""
+style = "bg:#34d399 fg:#1e1e2e"
+format = "[ $symbol $version ($virtualenv) ]($style)"
+
+# NodeJS
+[nodejs]
+symbol = ""
+style = "bg:#34d399 fg:#1e1e2e"
+format = "[ $symbol $version ]($style)"
+
+# Git Branch
+[git_branch]
+symbol = ""
+style = "bg:#f472b6 fg:#1e1e2e"
+format = "[ $symbol $branch ]($style)"
+
+# Git Status
+[git_status]
+style = "bg:#f472b6 fg:#1e1e2e"
+format = "[ $conflicted$stashed$deleted$renamed$modified$staged$untracked$ahead_behind ]($style)"
+
+conflicted = "⚔ "
+stashed = "📦 "
+deleted = "🗑 "
+renamed = "➜ "
+modified = "● "
+staged = "✓ "
+untracked = "◌ "
+ahead = "⇡${count} "
+behind = "⇣${count} "
+diverged = "⇕⇡${ahead_count}⇣${behind_count} "
+
+# Time
+[time]
+disabled = false
+time_format = "%I:%M:%S"
+style = "bg:#fbbf24 fg:#1e1e2e"
+format = "[  $time ]($style)"
+
+# Character
+[character]
+success_symbol = "[╰─➜ ](bold #a78bfa)"
+error_symbol = "[╰─➜ ](bold red)"

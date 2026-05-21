@@ -1,0 +1,297 @@
+watch_stylesheet: true
+watch_config: true
+debug: false
+
+bars:
+  status-bar:
+    enabled: true
+    screens: ['*']
+    class_name: "yasb-bar"
+    animation:
+      enabled: true
+      duration: 400
+    alignment:
+      position: "top"
+      center: true
+    blur_effect:
+      enabled: true
+      acrylic: true
+      dark_mode: true
+      round_corners: false
+      border_color: None
+    window_flags:
+      always_on_top: false
+      windows_app_bar: true
+    dimensions:
+      width: "100%"
+      height: 36
+    padding:
+      top: 0
+      left: 4
+      bottom: 0
+      right: 4
+    widgets:
+      left:
+        ["home", "komorebi_workspaces", "taskbar", "media"]
+      center:
+        ["clock"]
+      right:
+        ["cpu", "gpu", "memory", "traffic", "volume", "microphone", "bluetooth", "notifications", "systray", "power_menu"]
+
+widgets:
+
+  home:
+    type: "yasb.home.HomeWidget"
+    options:
+      label: "<span>\ue62a</span>"
+      system_menu: true
+      power_menu: true
+      blur: true
+      border_color: "system"
+      round_corners_type: "normal"
+      menu_labels:
+        about: "\ue66A  About This PC"
+        system: "\uF423  System Settings"
+        task_manager: "\uf437  Task Manager"
+        hibernate: "\uf28e  Hibernate"
+        sleep: "\u23fe  Sleep"
+        restart: "\uead2  Restart"
+        shutdown: "\uf011  Shutdown"
+        lock: "\uea75  Lock"
+        logout: "\udb80\udf43  Logout"
+      menu_list:
+        - { title: "\uE617  User Home",      path: "~" }
+        - { title: "\udb80\udd20  Downloads", path: "~\\Downloads" }
+        - { title: "\udb80\ude1a  Documents", path: "~\\Documents" }
+        - { title: "\uf03e  Pictures",        path: "~\\Pictures" }
+
+  komorebi_workspaces:
+    type: "komorebi.workspaces.WorkspaceWidget"
+    options:
+      label_offline: "<span>\uf071</span> Komorebi Offline"
+      label_workspace_btn: "\udb81\udc3d"
+      label_workspace_active_btn: "\udb81\udc3e"
+      label_workspace_populated_btn: "\udb81\udc3e"
+      label_default_name: ""
+      label_zero_index: false
+      hide_empty_workspaces: false
+      hide_if_offline: false
+      animation: true
+      enable_scroll_switching: true
+      toggle_workspace_layer:
+        enabled: false
+        tiling_label: "Tiling"
+        floating_label: "Floating"
+      app_icons:
+        enabled_populated: false
+        enabled_active: false
+        size: 12
+        max_icons: 0
+        hide_label: false
+        hide_duplicates: false
+        hide_floating: false
+      btn_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [1, 1]
+
+  taskbar:
+    type: "yasb.taskbar.TaskbarWidget"
+    options:
+      icon_size: 16
+      animation:
+        enabled: true
+      preview:
+        enabled: true
+        width: 250
+        delay: 400
+        padding: 12
+      callbacks:
+        on_middle: "close_app"
+
+  media:
+    type: "yasb.media.MediaWidget"
+    options:
+      label: "<span>\udb80\udf87</span> {title}"
+      label_alt: "<span>\udb80\udf87</span> {title} - {artist}"
+      hide_empty: true
+      callbacks:
+        on_left: "toggle_media_menu"
+        on_middle: "do_nothing"
+        on_right: "toggle_label"
+      max_field_size:
+        label: 45
+        label_alt: 80
+      show_thumbnail: false
+      controls_only: false
+      controls_left: false
+      thumbnail_alpha: 80
+      thumbnail_padding: 8
+      thumbnail_corner_radius: 16
+      icons:
+        prev_track: "\udb81\udcae"
+        next_track: "\udb81\udcad"
+        play: "\udb81\udc0a"
+        pause: "\udb80\udfe4"
+      media_menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        alignment: "left"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        thumbnail_corner_radius: 8
+        thumbnail_size: 80
+        max_title_size: 80
+        max_artist_size: 20
+        show_source: true
+      media_menu_icons:
+        play: "\ue768"
+        pause: "\ue769"
+        prev_track: "\ue892"
+        next_track: "\ue893"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [1, 1]
+
+  clock:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "<span>\uf017</span> {%a %d %b %I:%M}"
+      label_alt: "{%A %d %B %Y %I:%M:%S}"
+      timezones: []
+      calendar:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "center"
+        direction: "down"
+        show_holidays: true
+        show_week_numbers: true
+        holiday_color: "#FF6464"
+
+  cpu:
+    type: "yasb.cpu.CpuWidget"
+    options:
+      label: "CPU"
+      progress_bar:
+        enabled: true
+        size: 15
+        thickness: 2
+        color: "#7dcfff"
+        background_color: "#242739"
+
+  gpu:
+      type: "yasb.gpu.GpuWidget"
+      options:
+        label: "GPU"
+        progress_bar:
+          enabled: true
+          size: 15
+          thickness: 2
+          color: "#ff9e64"
+          background_color: "#242739"
+
+
+  memory:
+    type: "yasb.memory.MemoryWidget"
+    options:
+      label: "MEM"
+      progress_bar:
+        enabled: true
+        size: 15
+        thickness: 2
+        color: "#bb9af7"
+        background_color: "#242739"
+
+
+  # Stacked download / upload — spans are rendered by Qt, display:block in CSS does the stacking
+  traffic:
+    type: "yasb.traffic.TrafficWidget"
+    options:
+      label: "<span>\uf1eb</span>" # Wifi Icon
+
+
+  volume:
+    type: "yasb.volume.VolumeWidget"
+    options:
+      label: "<span>\uf028</span>" # Fixed Volume Icon
+      progress_bar:
+        enabled: true
+        size: 15
+        thickness: 2
+        color: "#7aa2f7"
+        background_color: "#242739"
+
+
+  microphone:
+    type: "yasb.microphone.MicrophoneWidget"
+    options:
+      label: "<span>\uf130</span>"
+      progress_bar:
+        enabled: true
+        size: 15
+        thickness: 2
+        color: "#1abc9c"
+        background_color: "#242739"
+
+
+  notifications:
+    type: "yasb.notifications.NotificationsWidget"
+    options:
+      label: "<span>\uf476</span> {count}"
+
+
+  # Native YASB systray — shows real tray icons, collapse button reveals hidden ones
+  systray:
+      type: "yasb.systray.SystrayWidget"
+      options:
+        icon_size: 16
+        show_unpinned: false
+
+
+  bluetooth:
+    type: "yasb.bluetooth.BluetoothWidget"
+    options:
+      label: "<span>{icon}</span> {device_count}"
+      label_alt: "<span>{icon}</span> {device_name}"
+      label_no_device: "No devices"
+      label_device_separator: ", "
+      max_length: 20
+      max_length_ellipsis: "..."
+      tooltip: true
+      icons:
+        bluetooth_on:        "\udb80\udcaf"   # BT on, no devices
+        bluetooth_off:       "\udb80\udcb2"   # BT off
+        bluetooth_connected: "\udb80\udcb1"   # BT on + connected
+      callbacks:
+        on_left:   "toggle_label"                                          # toggle icon+count <-> icon+names
+        on_middle: "toggle_bluetooth"                                      # turn BT on/off
+        on_right:  "exec cmd.exe /c start ms-settings:bluetooth"          # open BT settings to disconnect
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [1, 1]
+
+  power_menu:
+    type: "yasb.power_menu.PowerMenuWidget"
+    options:
+      label: "\uf011"
+      uptime: true
+      blur: false
+      blur_background: true
+      animation_duration: 300
+      button_row: 3
+      buttons:
+        lock:      ["\uea75",       "Lock"]
+        signout:   ["\udb80\udf43", "Sign out"]
+        shutdown:  ["\uf011",       "Shut Down"]
+        restart:   ["\uead2",       "Restart"]
+        hibernate: ["\uf28e",       "Hibernate"]
+        cancel:    ["\udb81\udf3a", "Cancel"]
