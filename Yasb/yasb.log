@@ -1,0 +1,1189 @@
+2026-05-15 14:22:44,605 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:22:44,611 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:22:44,804 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:22:45,530 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:22:45,531 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:22:45,608 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:22:45,630 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] TrafficWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:22:45,729 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:22:45,952 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:22:46,122 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:22:48,409 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:22:48,419 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:22:48,420 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:22:48,425 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:22:48,426 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:22:48,426 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-67333185-5050-11f1-8efb-a86daa3c990b
+2026-05-15 14:22:48,500 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:22:48,742 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-67333185-5050-11f1-8efb-a86daa3c990b
+2026-05-15 14:22:50,456 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:23:17,585 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:23:17,585 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:23:17,586 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:23:17,688 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:23:17,697 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:23:18,045 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:23:18,058 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:23:18,067 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:23:19,647 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:23:19,648 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:23:19,649 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:23:19,757 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:23:19,757 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:23:19,902 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:23:19,902 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:23:20,093 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:20,820 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:23:20,820 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:20,871 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:20,894 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] TrafficWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:20,998 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:23:21,222 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:23:21,409 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:23,477 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:23:23,482 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:23:23,482 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:23:23,488 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-7c193023-5050-11f1-957d-a86daa3c990b
+2026-05-15 14:23:23,489 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:23:23,490 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:23:23,547 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:23:23,745 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-7c193023-5050-11f1-957d-a86daa3c990b
+2026-05-15 14:23:25,203 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:23:47,989 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:23:47,989 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:23:47,990 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:23:48,096 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:23:48,105 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:23:48,439 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:23:48,447 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:23:48,463 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:23:49,952 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:23:49,954 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:23:49,955 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:23:50,047 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:23:50,047 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:23:50,165 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:23:50,165 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:23:50,318 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:50,864 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:23:50,864 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:50,899 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:51,000 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:23:51,186 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:23:51,342 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:23:53,431 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:23:53,436 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:23:53,437 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:23:53,440 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:23:53,441 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:23:53,441 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-8df3f8cc-5050-11f1-b845-a86daa3c990b
+2026-05-15 14:23:53,486 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:23:53,650 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-8df3f8cc-5050-11f1-b845-a86daa3c990b
+2026-05-15 14:23:54,949 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:24:25,074 [ERROR] [MainThread] [root/bar_manager.py:79]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\Felix\.config\yasb\config.yaml", line 239, column 14
+found unknown escape character '<'
+  in "C:\Users\Felix\.config\yasb\config.yaml", line 239, column 27
+2026-05-15 14:24:52,720 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:24:52,721 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:24:52,722 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:24:52,826 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:24:52,839 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:24:53,130 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:24:53,151 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:24:53,163 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:24:55,327 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:24:55,329 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:24:55,330 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:24:55,452 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:24:55,453 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:24:55,638 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:24:55,638 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:24:55,897 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:24:56,645 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:24:56,645 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:24:56,827 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:24:57,012 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:24:57,165 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:24:59,220 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:24:59,232 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:24:59,232 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:24:59,236 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:24:59,236 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:24:59,236 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-b52b8af7-5050-11f1-8aad-a86daa3c990b
+2026-05-15 14:24:59,284 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:24:59,451 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-b52b8af7-5050-11f1-8aad-a86daa3c990b
+2026-05-15 14:25:00,908 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:25:26,908 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:25:26,908 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:25:26,909 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:25:27,016 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:25:27,024 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:25:27,397 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:25:27,409 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:25:27,422 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:25:28,858 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:25:28,859 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:25:28,860 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:25:28,968 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:25:28,968 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:25:29,079 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:25:29,079 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:25:29,228 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:25:29,755 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:25:29,756 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:25:29,892 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:25:30,087 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:25:30,239 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:25:32,935 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:25:32,940 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:25:32,941 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:25:32,943 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-c942fd0a-5050-11f1-903d-a86daa3c990b
+2026-05-15 14:25:32,969 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:25:32,969 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:25:33,021 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:25:33,167 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-c942fd0a-5050-11f1-903d-a86daa3c990b
+2026-05-15 14:25:34,450 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:27:25,649 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:27:25,650 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:27:25,655 [ERROR] [MainThread] [root/config.py:99]: The config file 'C:\Users\Felix\.config\yasb\config.yaml' contains validation errors. Please fix:
+widgets:
+  memory:
+    str:
+    - Input should be a valid string
+    dict[str,any]:
+    - Input should be a valid dictionary
+
+2026-05-15 14:28:01,044 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:28:01,044 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:28:01,050 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:28:01,158 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:28:01,175 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:28:01,615 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:28:01,663 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:28:01,684 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:28:03,458 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:28:03,459 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:28:03,460 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:28:03,565 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:28:03,565 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:28:03,734 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:28:03,735 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:28:03,994 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:05,711 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:28:05,712 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:05,983 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:28:06,233 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:28:06,405 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:08,712 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:28:08,723 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:28:08,724 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:28:08,729 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:28:08,730 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:28:08,731 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-261d8cd1-5051-11f1-95d2-a86daa3c990b
+2026-05-15 14:28:08,798 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:28:09,042 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-261d8cd1-5051-11f1-95d2-a86daa3c990b
+2026-05-15 14:28:10,379 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:28:30,405 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:28:30,405 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:28:30,407 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:28:30,513 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:28:30,525 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:28:30,890 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:28:30,898 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:28:30,908 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:28:32,653 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:28:32,654 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:28:32,655 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:28:32,754 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:28:32,754 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:28:32,854 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:28:32,854 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:28:33,025 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:33,739 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:28:33,740 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:34,049 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:28:34,255 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:28:34,455 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:36,781 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:28:36,786 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:28:36,787 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:28:36,789 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-36d7ae12-5051-11f1-a3bb-a86daa3c990b
+2026-05-15 14:28:36,813 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:28:36,813 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:28:36,870 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:28:37,061 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-36d7ae12-5051-11f1-a3bb-a86daa3c990b
+2026-05-15 14:28:38,373 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:28:39,680 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:28:39,680 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:28:39,681 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:28:39,790 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:28:39,799 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:28:40,139 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:28:40,154 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:28:40,162 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:28:41,620 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:28:41,621 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:28:41,622 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:28:41,709 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:28:41,709 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:28:41,840 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:28:41,841 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:28:42,036 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:42,658 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:28:42,658 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:42,828 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:28:43,030 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:28:43,187 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:28:45,400 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:28:45,408 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:28:45,409 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:28:45,412 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-3bfb43d8-5051-11f1-a852-a86daa3c990b
+2026-05-15 14:28:45,413 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:28:45,413 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:28:45,460 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:28:45,618 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-3bfb43d8-5051-11f1-a852-a86daa3c990b
+2026-05-15 14:28:46,863 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:29:01,795 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:01,795 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:01,797 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:29:01,907 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:29:01,916 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:29:02,282 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:29:02,286 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:29:02,299 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:29:03,834 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:29:03,835 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:29:03,836 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:29:03,948 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:03,948 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:04,064 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:29:04,064 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:29:04,231 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:04,763 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:29:04,763 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:04,895 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:29:05,065 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:29:05,227 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:07,275 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:29:07,279 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:29:07,280 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:29:07,284 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:29:07,285 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:29:07,284 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-49049444-5051-11f1-a57f-a86daa3c990b
+2026-05-15 14:29:07,330 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:29:07,488 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-49049444-5051-11f1-a57f-a86daa3c990b
+2026-05-15 14:29:08,644 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:29:24,520 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:24,521 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:24,523 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:29:24,636 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:29:24,649 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:29:24,975 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:29:24,990 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:29:25,016 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:29:26,524 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:29:26,525 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:29:26,526 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:29:26,615 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:26,615 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:26,729 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:29:26,729 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:29:26,877 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:27,406 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:29:27,406 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:27,542 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:29:27,748 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:29:27,907 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:30,946 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:29:30,961 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:29:30,962 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:29:30,968 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-57224263-5051-11f1-ad45-a86daa3c990b
+2026-05-15 14:29:30,969 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:29:30,970 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:29:31,045 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:29:31,269 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-57224263-5051-11f1-ad45-a86daa3c990b
+2026-05-15 14:29:33,013 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:29:38,646 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:38,646 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:38,648 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:29:38,758 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:29:38,767 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:29:39,117 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:29:39,127 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:29:39,141 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:29:40,804 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:29:40,805 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:29:40,806 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:29:40,895 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:40,895 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:41,038 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:29:41,038 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:29:41,205 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:41,804 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:29:41,804 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:41,979 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:29:42,172 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:29:42,344 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:44,500 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:29:44,506 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:29:44,507 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:29:44,509 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-5f34e0cf-5051-11f1-82df-a86daa3c990b
+2026-05-15 14:29:44,532 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:29:44,532 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:29:44,585 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:29:44,732 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-5f34e0cf-5051-11f1-82df-a86daa3c990b
+2026-05-15 14:29:46,006 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:29:50,339 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:50,340 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:50,341 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:29:50,449 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:29:50,462 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:29:50,740 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:29:50,755 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:29:50,842 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:29:52,898 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:29:52,900 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:29:52,901 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:29:53,019 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:29:53,020 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:29:53,201 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:29:53,201 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:29:53,463 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:54,569 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'container_padding' - Use CSS padding instead.
+2026-05-15 14:29:54,570 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:54,815 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:29:55,072 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:29:55,271 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:29:57,982 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:29:57,988 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:29:57,989 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:29:57,994 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:29:57,994 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:29:57,995 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-673e1bae-5051-11f1-bfc2-a86daa3c990b
+2026-05-15 14:29:58,041 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:29:58,237 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-673e1bae-5051-11f1-bfc2-a86daa3c990b
+2026-05-15 14:29:59,394 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:31:09,808 [ERROR] [MainThread] [root/config.py:113]: The file 'C:\Users\Felix\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Felix\.config\yasb\config.yaml", line 1, column 1
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Felix\.config\yasb\config.yaml", line 221, column 3
+2026-05-15 14:31:30,339 [ERROR] [MainThread] [root/config.py:113]: The file 'C:\Users\Felix\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\Felix\.config\yasb\config.yaml", line 1, column 1
+expected <block end>, but found '<block mapping start>'
+  in "C:\Users\Felix\.config\yasb\config.yaml", line 201, column 3
+2026-05-15 14:32:20,805 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:32:20,805 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:32:20,806 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:32:20,910 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:32:20,918 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:32:21,244 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:32:21,250 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:32:21,265 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:32:23,284 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:32:23,285 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:32:23,287 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:32:23,370 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:32:23,370 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:32:23,490 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:32:23,491 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:32:23,651 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:32:24,416 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:32:24,603 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:32:24,763 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:32:27,332 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:32:27,337 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:32:27,338 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:32:27,343 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-c043202a-5051-11f1-a68a-a86daa3c990b
+2026-05-15 14:32:27,343 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:32:27,343 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:32:27,391 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:32:27,570 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-c043202a-5051-11f1-a68a-a86daa3c990b
+2026-05-15 14:32:28,981 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:32:57,211 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:32:57,212 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:32:57,214 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:32:57,327 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:32:57,342 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:32:57,667 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:32:57,688 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:32:57,708 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:32:59,514 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:32:59,515 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:32:59,516 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:32:59,588 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:32:59,588 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:32:59,691 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:32:59,691 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:32:59,867 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:33:00,569 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:33:00,750 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:33:00,916 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:33:03,139 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:33:03,156 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:33:03,157 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:33:03,164 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:33:03,165 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:33:03,165 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-d59c7aee-5051-11f1-a5cc-a86daa3c990b
+2026-05-15 14:33:03,217 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:33:03,419 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-d59c7aee-5051-11f1-a5cc-a86daa3c990b
+2026-05-15 14:33:04,615 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:33:17,352 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:33:17,353 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:33:17,354 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:33:17,462 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:33:17,472 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:33:17,799 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:33:17,813 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:33:17,826 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:33:19,349 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:33:19,350 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:33:19,350 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:33:19,423 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:33:19,423 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:33:19,525 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:33:19,525 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:33:19,726 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:33:20,403 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:33:20,585 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:33:20,751 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:33:22,773 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:33:22,783 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:33:22,783 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:33:22,787 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-e14f3cc0-5051-11f1-b12c-a86daa3c990b
+2026-05-15 14:33:22,788 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:33:22,789 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:33:22,838 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:33:23,015 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-e14f3cc0-5051-11f1-b12c-a86daa3c990b
+2026-05-15 14:33:24,267 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:33:39,676 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:33:39,677 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:33:39,679 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:33:39,780 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:33:39,786 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:33:40,166 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:33:40,185 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:33:40,202 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:33:41,957 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:33:41,958 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:33:41,960 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:33:42,071 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:33:42,071 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:33:42,219 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:33:42,219 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:33:42,470 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:33:43,541 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:33:43,798 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:33:43,981 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:33:46,281 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:33:46,287 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:33:46,288 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:33:46,295 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-ef51ef6c-5051-11f1-86a8-a86daa3c990b
+2026-05-15 14:33:46,320 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:33:46,322 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:33:46,380 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:33:46,547 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-ef51ef6c-5051-11f1-86a8-a86daa3c990b
+2026-05-15 14:33:47,788 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:35:02,676 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:35:02,676 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:35:02,678 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:35:02,792 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:35:02,801 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:35:03,212 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:35:03,222 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:35:03,228 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:35:04,818 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:35:04,820 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:35:04,820 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:35:04,937 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:35:04,937 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:35:05,092 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:35:05,092 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:35:05,297 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:35:06,408 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:35:06,619 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:35:06,779 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:35:08,858 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:35:08,864 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:35:08,865 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:35:08,869 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-2089f8f8-5052-11f1-a012-a86daa3c990b
+2026-05-15 14:35:08,870 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:35:08,870 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:35:08,917 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:35:09,104 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-2089f8f8-5052-11f1-a012-a86daa3c990b
+2026-05-15 14:35:10,624 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:35:16,375 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:35:16,375 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:35:16,376 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:35:16,480 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:35:16,492 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:35:16,831 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:35:16,858 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:35:16,872 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:35:18,654 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:35:18,655 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:35:18,656 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:35:18,768 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:35:18,768 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:35:18,904 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:35:18,904 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:35:19,094 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:35:19,974 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:35:20,208 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:35:20,391 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:35:22,489 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:35:22,498 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:35:22,498 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:35:22,502 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-28aa61e8-5052-11f1-86a5-a86daa3c990b
+2026-05-15 14:35:22,503 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:35:22,503 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:35:22,548 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:35:22,744 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-28aa61e8-5052-11f1-86a5-a86daa3c990b
+2026-05-15 14:35:24,022 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:37:02,560 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:37:02,561 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:37:02,563 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:37:02,676 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:37:02,687 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:37:03,015 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:37:03,031 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:37:03,049 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:37:04,740 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:37:04,740 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:37:04,741 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:37:04,831 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:37:04,831 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:37:04,941 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:37:04,942 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:37:05,118 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:37:05,871 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:37:06,054 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:37:06,212 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:37:08,301 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:37:08,308 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:37:08,309 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:37:08,312 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:37:08,313 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:37:08,313 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-67bbcf50-5052-11f1-8b3a-a86daa3c990b
+2026-05-15 14:37:08,360 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:37:08,574 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-67bbcf50-5052-11f1-8b3a-a86daa3c990b
+2026-05-15 14:37:09,475 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:37:09,476 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:37:09,476 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:37:09,577 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:37:09,584 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:37:09,894 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:37:09,905 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:37:09,918 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:37:11,995 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:37:11,998 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:37:12,000 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:37:12,200 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:37:12,202 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:37:12,449 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:37:12,450 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:37:12,661 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:37:13,376 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:37:13,551 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:37:13,711 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:37:15,565 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:37:15,575 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:37:15,576 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:37:15,580 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:37:15,581 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:37:15,581 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-6c10b427-5052-11f1-a776-a86daa3c990b
+2026-05-15 14:37:15,641 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:37:15,846 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-6c10b427-5052-11f1-a776-a86daa3c990b
+2026-05-15 14:37:17,129 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:37:29,027 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:37:29,027 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:37:29,028 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:37:29,129 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:37:29,136 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:37:29,456 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:37:29,477 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:37:29,486 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:37:31,115 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:37:31,116 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:37:31,117 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:37:31,215 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:37:31,215 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:37:31,379 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:37:31,379 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:37:31,592 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:37:32,637 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:37:32,879 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:37:33,062 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:37:35,065 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:37:35,075 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:37:35,075 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:37:35,080 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:37:35,080 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:37:35,081 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-77b006d1-5052-11f1-889a-a86daa3c990b
+2026-05-15 14:37:35,131 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:37:35,320 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-77b006d1-5052-11f1-889a-a86daa3c990b
+2026-05-15 14:37:36,518 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:39:43,324 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:39:43,324 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:39:43,325 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:39:43,426 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:39:43,435 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:39:43,766 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:39:43,789 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:39:43,801 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:39:45,666 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:39:45,666 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:39:45,667 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:39:45,758 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:39:45,758 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:39:45,890 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:39:45,890 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:39:46,099 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:39:47,085 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:39:47,290 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:39:47,453 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:39:49,709 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:39:49,719 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:39:49,720 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:39:49,725 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-c7f106ed-5052-11f1-8acf-a86daa3c990b
+2026-05-15 14:39:49,726 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:39:49,727 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:39:49,790 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:39:50,044 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-c7f106ed-5052-11f1-8acf-a86daa3c990b
+2026-05-15 14:39:51,558 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 14:40:14,359 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:40:14,359 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:40:14,360 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-15 14:40:14,461 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-15 14:40:14,469 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-15 14:40:14,816 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-15 14:40:14,826 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-15 14:40:14,839 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-15 14:40:16,559 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 14:40:16,560 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 14:40:16,562 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 14:40:16,743 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 14:40:16,743 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 14:40:16,958 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 14:40:16,959 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 14:40:17,269 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:40:18,497 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 14:40:18,729 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 14:40:18,961 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 14:40:21,834 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 14:40:21,843 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 14:40:21,844 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 14:40:21,850 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 14:40:21,850 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 14:40:21,851 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-db16da9d-5052-11f1-9486-a86daa3c990b
+2026-05-15 14:40:21,916 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 14:40:22,158 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-db16da9d-5052-11f1-9486-a86daa3c990b
+2026-05-15 14:40:23,833 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 18:51:54,429 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-15 18:51:54,435 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-15 18:51:54,436 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-15 18:51:54,852 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-15 18:51:54,852 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-15 18:51:55,235 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-15 18:51:55,236 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-15 18:51:55,733 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 18:51:57,671 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-15 18:51:57,972 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-15 18:51:58,216 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-15 18:52:00,901 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-15 18:52:00,912 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-15 18:52:00,913 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-15 18:52:00,916 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-02d5faa8-5076-11f1-a989-a86daa3c990b
+2026-05-15 18:52:00,965 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-15 18:52:00,967 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-15 18:52:01,885 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-15 18:52:01,887 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-15 18:52:03,340 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 18:52:10,792 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-15 18:52:44,344 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-02d5faa8-5076-11f1-a989-a86daa3c990b
+2026-05-16 03:34:09,852 [INFO] [MainThread] [root/window_actions.py:233]: Successfully ended task via forced EndTask for HWND: 852954
+2026-05-16 10:53:33,172 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-16 10:53:33,177 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-16 10:53:33,178 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-16 10:53:33,745 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-16 10:53:33,745 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-16 10:53:34,232 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-16 10:53:34,233 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-16 10:53:34,736 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 10:53:36,026 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-16 10:53:36,280 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-16 10:53:36,458 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 10:53:38,283 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-16 10:53:38,293 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-16 10:53:38,294 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-16 10:53:38,297 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-592782d7-50fc-11f1-8012-a86daa3c990b
+2026-05-16 10:53:38,302 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-16 10:53:38,302 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-16 10:53:39,007 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-16 10:53:39,008 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-16 10:53:40,342 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-16 10:53:48,709 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-16 10:54:01,654 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: _ssl.c:1063: The handshake operation timed out
+2026-05-16 10:54:01,655 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error _ssl.c:1063: The handshake operation timed out>
+2026-05-16 10:54:21,219 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-592782d7-50fc-11f1-8012-a86daa3c990b
+2026-05-16 17:52:47,288 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-05-16 17:52:47,395 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-16 17:52:48,040 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-16 17:52:48,043 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-16 17:52:48,062 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-16 17:54:06,717 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-16 17:54:06,720 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-16 17:54:06,721 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-16 17:54:07,033 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-16 17:54:07,033 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-16 17:54:07,355 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-16 17:54:07,355 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-16 17:54:07,849 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 17:54:09,824 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-16 17:54:09,993 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-16 17:54:10,105 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 17:54:11,587 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-16 17:54:11,597 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-16 17:54:11,598 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-16 17:54:11,601 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-19605927-5137-11f1-9deb-a86daa3c990b
+2026-05-16 17:54:11,606 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-16 17:54:11,613 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-16 17:54:12,227 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-16 17:54:12,228 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-16 17:54:13,289 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-05-16 17:54:13,290 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-16 17:54:43,244 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-19605927-5137-11f1-9deb-a86daa3c990b
+2026-05-16 22:02:06,270 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-16 22:02:06,274 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-16 22:02:06,276 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-16 22:02:06,776 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-16 22:02:06,776 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-16 22:02:07,098 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-16 22:02:07,098 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-16 22:02:07,607 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 22:02:09,244 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-16 22:02:09,534 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-16 22:02:09,755 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-16 22:02:12,322 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-16 22:02:12,337 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-16 22:02:12,338 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-16 22:02:12,339 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-befcea09-5159-11f1-aaf3-a86daa3c990b
+2026-05-16 22:02:12,360 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-16 22:02:12,360 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-16 22:02:13,282 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-16 22:02:13,282 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-16 22:02:14,689 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-05-16 22:02:14,691 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-16 22:02:14,746 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-16 22:02:24,140 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-16 22:02:55,109 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-befcea09-5159-11f1-aaf3-a86daa3c990b
+2026-05-17 22:22:54,840 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-17 22:22:54,845 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-17 22:22:54,846 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-17 22:22:55,299 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-17 22:22:55,299 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-17 22:22:55,734 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-17 22:22:55,734 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-17 22:22:56,249 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 22:22:58,398 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-17 22:22:58,773 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-17 22:22:59,069 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-17 22:23:02,169 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-17 22:23:02,186 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-17 22:23:02,187 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-17 22:23:02,190 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-d25e7a3a-5225-11f1-ac1d-a86daa3c990b
+2026-05-17 22:23:02,195 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-17 22:23:02,195 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-17 22:23:03,307 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-17 22:23:03,311 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-17 22:23:05,053 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-05-17 22:23:05,055 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-05-17 22:23:56,082 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-d25e7a3a-5225-11f1-ac1d-a86daa3c990b
+Windows fatal exception: code 0x8001010e
+
+Thread 0x00001300 [SystrayMonitor] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\utils.py", line 145 in start_message_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_monitor.py", line 99 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 65 in run
+
+Thread 0x000012ac [asyncio_0] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e6c [Thread-6] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000e38 [Thread-7] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000e34 [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\windows_events.py", line 775 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 677 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 706 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 101 in run
+
+Thread 0x00000e30 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 75 in run
+
+Thread 0x00002d58 [MemoryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\memory\memory_api.py", line 244 in run
+
+Thread 0x00000a54 [GpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\gpu\gpu_api.py", line 530 in run
+
+Thread 0x00000a64 [CpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\cpu\cpu_api.py", line 318 in run
+
+Thread 0x00000724 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002d1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000093c [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x00002cf8 (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\events.py", line 94 in _run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 307 in timerEvent
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 98 in main
+  File "main.py", line 188 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 27 in run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\__startup__.py", line 137 in run
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+2026-05-18 08:59:38,959 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-18 08:59:38,963 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-18 08:59:38,964 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-18 08:59:39,644 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-18 08:59:39,645 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-18 08:59:40,065 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-18 08:59:40,065 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-18 08:59:40,687 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-18 08:59:42,649 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-18 08:59:43,001 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-18 08:59:43,212 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-18 08:59:46,194 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-18 08:59:46,210 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-18 08:59:46,212 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-18 08:59:46,222 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-18 08:59:46,223 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-18 08:59:46,222 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-c5be1238-527e-11f1-a8ce-a86daa3c990b
+2026-05-18 08:59:47,246 [WARNING] [Dummy-7] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-18 08:59:47,247 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-18 08:59:48,694 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-18 09:00:02,461 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-18 09:00:13,794 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-c5be1238-527e-11f1-a8ce-a86daa3c990b
+2026-05-19 10:35:29,863 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-19 10:35:29,866 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-19 10:35:29,867 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-19 10:35:30,363 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-19 10:35:30,363 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-19 10:35:30,788 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-19 10:35:30,788 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-19 10:35:31,319 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-19 10:35:32,997 [ERROR] [MainThread] [root/traffic_manager.py:163]: Error loading traffic data for interface auto: Expecting value: line 1 column 1 (char 0)
+2026-05-19 10:35:33,130 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-19 10:35:33,443 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-19 10:35:33,686 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-19 10:35:36,377 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-19 10:35:36,389 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-19 10:35:36,391 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-19 10:35:36,395 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-5387951d-5355-11f1-91bd-a86daa3c990b
+2026-05-19 10:35:36,401 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-19 10:35:36,402 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-19 10:35:37,265 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-19 10:35:37,266 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-19 10:35:38,751 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-19 10:36:16,998 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-5387951d-5355-11f1-91bd-a86daa3c990b
+Windows fatal exception: code 0x8001010e
+
+Thread 0x00000938 [SystrayMonitor] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\user32.py", line 297 in SetWindowPos
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_monitor.py", line 139 in _window_proc
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\utils.py", line 147 in start_message_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_monitor.py", line 99 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 65 in run
+
+Thread 0x00001450 [asyncio_0] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001be8 [Thread-6] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000005fc [Thread-7] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000fbc [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 75 in run
+
+Thread 0x000005b0 [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\windows_events.py", line 775 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 677 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 706 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 101 in run
+
+Thread 0x00000240 [MemoryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\memory\memory_api.py", line 244 in run
+
+Thread 0x00000308 [GpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\gpu\gpu_api.py", line 530 in run
+
+Thread 0x0000023c [CpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\cpu\cpu_api.py", line 318 in run
+
+Thread 0x00002100 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x0000265c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000860 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x00001f7c (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\events.py", line 94 in _run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 307 in timerEvent
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 98 in main
+  File "main.py", line 188 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 27 in run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\__startup__.py", line 137 in run
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+2026-05-20 09:28:51,658 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-20 09:28:51,662 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-20 09:28:51,663 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-20 09:28:52,066 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-20 09:28:52,067 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-20 09:28:52,404 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-20 09:28:52,405 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-20 09:28:52,852 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-20 09:28:54,578 [ERROR] [MainThread] [root/traffic_manager.py:163]: Error loading traffic data for interface auto: Expecting value: line 1 column 1 (char 0)
+2026-05-20 09:28:54,705 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-20 09:28:55,042 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-20 09:28:55,317 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-20 09:28:58,151 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-20 09:28:58,165 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-20 09:28:58,167 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-20 09:28:58,169 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-2ed09c66-5415-11f1-b267-a86daa3c990b
+2026-05-20 09:28:58,177 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-20 09:28:58,177 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-20 09:28:59,364 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-20 09:28:59,367 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-20 09:29:42,210 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-20 09:30:03,889 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-2ed09c66-5415-11f1-b267-a86daa3c990b
+Windows fatal exception: code 0x8001010e
+
+Thread 0x00002858 [SystrayMonitor] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\utils.py", line 145 in start_message_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_monitor.py", line 99 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 65 in run
+
+Thread 0x00002b7c [asyncio_0] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 73 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 86 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\concurrent\futures\thread.py", line 119 in _worker
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a6c [Thread-6] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a68 [Thread-7] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a64 [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\windows_events.py", line 775 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 677 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\base_events.py", line 706 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 101 in run
+
+Thread 0x00002a60 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 75 in run
+
+Thread 0x000029d0 [MemoryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\memory\memory_api.py", line 244 in run
+
+Thread 0x000029c0 [GpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\gpu\gpu_api.py", line 530 in run
+
+Thread 0x000029bc [CpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\cpu\cpu_api.py", line 318 in run
+
+Thread 0x00002970 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002960 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000295c [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x00001e30 (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\media\media.py", line 172 in _on_current_session_changed
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\events.py", line 94 in _run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 307 in timerEvent
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 98 in main
+  File "main.py", line 188 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 27 in run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\__startup__.py", line 137 in run
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+2026-05-21 07:57:45,621 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-21 07:57:45,626 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-21 07:57:45,628 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-21 07:57:46,250 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-21 07:57:46,250 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-21 07:57:46,717 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-21 07:57:46,718 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-21 07:57:47,518 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-21 07:57:49,956 [ERROR] [MainThread] [root/traffic_manager.py:163]: Error loading traffic data for interface auto: Expecting value: line 1 column 1 (char 0)
+2026-05-21 07:57:50,299 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-21 07:57:51,012 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-21 07:57:51,593 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-21 07:57:55,101 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-21 07:57:55,122 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-21 07:57:55,123 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-21 07:57:55,131 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-a1002e2d-54d1-11f1-ab3d-a86daa3c990b
+2026-05-21 07:57:55,135 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-21 07:57:55,136 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-21 07:57:56,817 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-21 07:57:56,838 [WARNING] [Dummy-6] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-21 07:59:13,941 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
+2026-05-21 07:59:53,130 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-a1002e2d-54d1-11f1-ab3d-a86daa3c990b
+2026-05-21 08:01:04,645 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-05-21 08:01:04,650 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-21 08:01:04,654 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-21 08:01:05,110 [ERROR] [MainThread] [qasync._QEventLoop/__init__.py:770]: Exception in callback Task.task_wakeup()
+handle: <Handle Task.task_wakeup()>
+Traceback (most recent call last):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\events.py", line 94, in _run
+RuntimeError: loop <QIOCPEventLoop running=False closed=False debug=False> is not the running loop
+2026-05-21 08:01:05,116 [ERROR] [MainThread] [root/main.py:190]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 188, in <module>
+  File "main.py", line 98, in main
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 435, in run_until_complete
+RuntimeError: Event loop stopped before Future completed.
+2026-05-21 08:03:34,610 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.2
+2026-05-21 08:03:34,611 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-21 08:03:34,612 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-21 08:03:35,058 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-21 08:03:35,058 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-21 08:03:36,062 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-21 08:03:36,062 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'btn_shadow' - Use CSS box-shadow instead.
+2026-05-21 08:03:37,106 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MediaWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-21 08:03:38,234 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-21 08:03:38,501 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-05-21 08:03:38,769 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BluetoothConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-21 08:03:41,254 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-21 08:03:41,263 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-21 08:03:41,264 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-05-21 08:03:41,269 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-6f50fa60-54d2-11f1-969f-a86daa3c990b
+2026-05-21 08:03:41,270 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\felix\.config\yasb
+2026-05-21 08:03:41,271 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-21 08:03:42,157 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-6f50fa60-54d2-11f1-969f-a86daa3c990b
+2026-05-21 08:03:42,157 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-21 08:03:43,759 [ERROR] [SystrayMonitor] [root/app_icons.py:282]: GetIconInfo failed: 0
